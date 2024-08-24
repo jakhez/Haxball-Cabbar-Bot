@@ -12,7 +12,7 @@ var room = HBInit({
 
 // ************** AYARLAR ************** //
 const RedTeamName = "Dortmund"; // Kırmızı takım ismi
-const BlueTeamName = "PSG"; // Mavi takım ismi
+const BlueTeamName = "PSG!"; // Mavi takım ismi
 room.setScoreLimit(3); // Skor limit
 room.setTimeLimit(8); // Süre limit
 // Dilersen bunları da  değiştirebilirsin
@@ -502,10 +502,6 @@ room.onPlayerChat = function(player,message){
         else if(player.admin == true){
             room.sendAnnouncement("Hazır haritalar: x1,x3,x4,x5,x6,x7,x10",player.id,0xc6db3d);
         }
-    }
-
-    else if(komut == "!github"){
-        room.sendAnnouncement("",player.id,0xc6db3d);
     }
     else if (komut == "!1"){
         if (player.admin == false){room.sendAnnouncement("Bu komut adminlere mahsustur.",player.id,0xFF0000);}
