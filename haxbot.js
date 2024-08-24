@@ -1,6 +1,7 @@
 
 
 // !!! KODU DÜZENLERKEN DİKKATLİ OLUN !!! EĞER BİR SORUN YAŞARSANIZ BAŞTAN KOPYALAYIN
+// !!! KODU KONSOLA YAPIŞTIRDIKTAN SONRA ENTERLEMEDEN EN YUKARI KAYDIRARAK DÜZENLEYEBİLİRSİNİZ
 
 var room = HBInit({
     //token:, // tokeni koyacağımız yer, token almak için https://html5.haxball.com/headlesstoken
