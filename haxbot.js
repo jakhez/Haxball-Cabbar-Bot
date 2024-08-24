@@ -1,8 +1,9 @@
 
 
 // !!! KODU DÜZENLERKEN DİKKATLİ OLUN !!! EĞER BİR SORUN YAŞARSANIZ BAŞTAN KOPYALAYIN
-// !!! KODU KONSOLA YAPIŞTIRDIKTAN SONRA ENTERLEMEDEN EN YUKARI KAYDIRARAK DÜZENLEYEBİLİRSİNİZ
+// !!! KODU KONSOLA YAPIŞTIRDIKTAN SONRA ENTERLEMEDEN ÖNCE EN YUKARI KAYDIRARAK DÜZENLEYEBİLİRSİNİZ
 
+// ************** AYARLAR ************** //
 var room = HBInit({
     //token:, // tokeni koyacağımız yer, token almak için https://html5.haxball.com/headlesstoken
 	roomName: "psg vs dortmund", // Odanını ismi
@@ -11,17 +12,17 @@ var room = HBInit({
     public: false // Sunucu listedi gözüksün mü gözükmesin mi= true = gözükSÜN, false = gözükmesin
 });
 
-// ************** AYARLAR ************** //
 const RedTeamName = "Dortmund"; // Kırmızı takım ismi
 const BlueTeamName = "PSG!"; // Mavi takım ismi
-room.setScoreLimit(3); // Skor limit
-room.setTimeLimit(8); // Süre limit
+room.setScoreLimit(3); // Skor limit, parantez içini düzenleyin
+room.setTimeLimit(8); // Süre limit, parantez içini düzenleyin
 // Dilersen bunları da  değiştirebilirsin
 const spam_notice = "Hız sınırını aştınız."; // Spam yapanlara giden uyarı 
 const mute_notice = "Susturuldunuz, mesaj yazamazsınız."; // Muteli mesaj yazmaya çalışınca gelecek uyarı
 const afk_system = true; // afkları kicklemek için sistem, true = açık false = kapalı
 const afk_limit = 20; // afkların kaç saniye içinde atılacağı, en az 10 yapılmalı yoksa düzgün çalışmaz
 // ==========================================================
+// ************** AYARLAR BİTTİ **************
 
 
 const mute_list = [];
