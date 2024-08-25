@@ -37,6 +37,7 @@ Tamamdır tokenli odamız hazır, artık bizden doğrulama istemeyecektir. Bu ye
 !votekick [isim] : ismi verilen oyuncunun atılması için oy verir. Her oyuncu en fazla bir oy verebilir.<br/>
 !susturchat : yazan oyuncu için sohbeti kapatır.<br/>
 !dinlechat : yazan oyuncu sohbeti dinleme başlar.<br/>
+!best : en çok gol atana 5 oyuncuyu gösterir ve yazan oyuncunun golünü yazar.<br/>
 
 # Admin komutları
 !admin [şifre] : doğru şifre giren oyuncuyu admin yapar.<br/>
