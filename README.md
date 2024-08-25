@@ -21,6 +21,7 @@ Bot çalışmaya başladı. Admin olmak için konsolda yazan şifreyi oyunun iç
 *Oyun içi sohbeti konsoldan takip edebilirsiniz. Küfürler silinmeden konsola yansıtılır.<br/>
 *Sunucu açık kaldığı sürece içinde oyuncu olarak bulunmanıza gerek yoktur.<br/>
 *Eğer odada hiç bir oyuncu kalmazsa skor ve harita sıfırlanır.<br/>
+*Bazı komutları yanlış kullanmak bizi odadan atabilir. Lütfen dikkatli kullanın.<br/>
 
 # Token nasıl alınır?
 Google'a "haxball headless token" yazarak şu siteye giriş yapıyoruz: https://www.haxball.com/headlesstoken<br/>
