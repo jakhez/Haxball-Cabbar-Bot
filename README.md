@@ -12,7 +12,10 @@ F12 tuşuna basıyoruz.<br/>
 Açılan sekmede "Elements" yazısının yanındaki "Console" yazısına tıklıyoruz.<br/>
 Konsolu açtıktan sonra göz işaretinin yanında "top" yazması lazım, üstüne tıkladığımız zaman "www.haxball.com" yazacaktır. Bu seçeneği işaretli bırakıyoruz.<br/>
 Eğer "headless.html" yazıyorsa, bunun yerine doğru seçeneği seçiyoruz.<br/>
-Sonra konsol sekmesinin yani beyaz boş alanın üstüne tıklayıp, kodu kopyala-yapıştır yapıyoruz ve enterliyoruz.<br/>
+Chrome'den başka bir tarayıcı kullanıyorsanız farklı olabilir.<br/>
+Eğer bir şey bulamadıysanız direk kodu yapıştırın yine de çalışacaktır.<br/>
+Sonra konsol sekmesinin yani boş alanın üstüne tıklayıp, kodu kopyala-yapıştır yapıyoruz ve enterliyoruz.<br/>
+Konsola tıkladığınızdan emin olmak istiyorsanız >> işaretinin yanına yazı yazabilmeniz gerekir. <br/>
 Sizden bir doğrulama isteyecektir. Eğer odayı sürekli açıp kapatıyor ve doğrulama ile uğraşmak istemiyorsanız token alabilirsiniz.
 Bot çalışmaya başladı. Admin olmak için konsolda yazan şifreyi oyunun içinden !admin [şifre] komutu ile girebilirsiniz.<br/>
 
@@ -21,7 +24,7 @@ Bot çalışmaya başladı. Admin olmak için konsolda yazan şifreyi oyunun iç
 *Oyun içi sohbeti konsoldan takip edebilirsiniz. Küfürler silinmeden konsola yansıtılır.<br/>
 *Sunucu açık kaldığı sürece içinde oyuncu olarak bulunmanıza gerek yoktur.<br/>
 *Eğer odada hiç bir oyuncu kalmazsa skor ve harita sıfırlanır.<br/>
-*Bazı komutları yanlış kullanmak bizi odadan atabilir. Lütfen dikkatli kullanın.<br/>
+*Bazı komutları yanlış kullanmak odadan atabilir. Başınıza gelirse şaşırmayın diye.<br/>
 
 # Token nasıl alınır?
 Google'a "haxball headless token" yazarak şu siteye giriş yapıyoruz: https://www.haxball.com/headlesstoken<br/>
@@ -38,7 +41,7 @@ Tamamdır tokenli odamız hazır, artık bizden doğrulama istemeyecektir. Bu ye
 !votekick [isim] : ismi verilen oyuncunun atılması için oy verir. Her oyuncu en fazla bir oy verebilir.<br/>
 !susturchat : yazan oyuncu için sohbeti kapatır.<br/>
 !dinlechat : yazan oyuncu sohbeti dinleme başlar.<br/>
-!best : en çok gol atana 5 oyuncuyu gösterir ve yazan oyuncunun golünü yazar.<br/>
+!best (şu anlık pek iyi değil): en çok gol atana 5 oyuncuyu gösterir ve yazan oyuncunun golünü yazar.<br/>
 
 # Admin komutları
 !admin [şifre] : doğru şifre giren oyuncuyu admin yapar.<br/>
