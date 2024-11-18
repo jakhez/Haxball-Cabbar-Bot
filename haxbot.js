@@ -781,7 +781,7 @@ room.onPlayerChat = function(player,message){
     else if(komut == "!takim" | komut == "!takım" | komut == "!team"){
         putPlayertoTeam(player);
     }
-    else if(komut == "!spec" | komut == "!seyirci"){
+    else if(komut == "!spec" | komut == "!seyirci" | komut == "!afk"){
         room.setPlayerTeam(player.id,0);
     }
 
